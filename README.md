@@ -1,49 +1,53 @@
-# NSE Stock Market Dashboard 📈
+# 📈 NSE Stock Market Dashboard
 
 A real-time NSE stock market dashboard built with Python, Streamlit and Plotly.
 
-## Stocks Tracked
-- Samvardhana Motherson
-- PNB (Punjab National Bank)
-- Tata Steel
-- Hindalco Industries
-- HCL Technologies
-- TCS (Tata Consultancy Services)
-- Tata Motors
-- Adani Enterprises
+## 🔴 Live Demo
+👉 https://nse-stock-dashboard-mxxtbpz4shqluzsufcdrdk.streamlit.app
 
-## Features
-- Live NSE stock prices
-- Candlestick and Line charts
-- Moving Averages (MA20, MA50)
-- Volume analysis
-- Period returns (1W, 1M, 3M, 6M, 1Y)
-- Recent price data table
-- Auto-refresh every 5 minutes
+## 📊 Stocks Tracked
+| Company | Symbol |
+|---|---|
+| Samvardhana Motherson | MOTHERSON.NS |
+| PNB (Punjab National Bank) | PNB.NS |
+| Tata Steel | TATASTEEL.NS |
+| Hindalco Industries | HINDALCO.NS |
+| HCL Technologies | HCLTECH.NS |
+| TCS (Tata Consultancy Services) | TCS.NS |
+| Vedanta | VEDL.NS |
+| Adani Enterprises | ADANIENT.NS |
 
-## Setup
+## ✨ Features
+- 📈 Live NSE stock prices
+- 🕯️ Candlestick and Line charts
+- 📊 Moving Averages (MA20 & MA50)
+- 📉 Volume analysis
+- ⏱️ Multiple time periods (1W, 1M, 3M, 6M, 1Y)
+- 🌙 Beautiful dark theme
+- 📋 Recent price data table
 
-### 1. Create virtual environment
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the dashboard
-```bash
-streamlit run app.py
-```
-
-The dashboard will open automatically at http://localhost:8501
-
-## Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Streamlit
 - Plotly
 - yfinance
 - Pandas
+
+## ⚙️ Setup & Run Locally
+
+### 1. Clone the repository
+git clone https://github.com/priyanshu-rocks/nse-stock-dashboard.git
+cd nse-stock-dashboard
+
+### 2. Create virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run the dashboard
+streamlit run app.py
+
+## 👨‍💻 Developer
+**Priyanshu** — Internship Project at Codec Technologies
